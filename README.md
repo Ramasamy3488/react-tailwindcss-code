@@ -69,8 +69,48 @@ upload files of the dist folder
 
 =======================
 =======================
+{
+
+     "homepage": "https://your-username.github.io/frontend-mern-batch11am"
+
+     ex, 
+
+     {
+     "name": "frontend-mern-batch11am",
+     "version": "0.1.0", 
+     "private": true, 
+     "homepage": "https://your-username.github.io/frontend-mern-batch11am", 
+     "dependencies": {
+     "react": "^18.2.0", 
+     "react-dom": "^18.2.0", 
+     "react-router-dom": "^6.17.0"},
+     "devDependencies": { 
+     "gh-pages": "^5.0.0" 
+     },
+     "scripts": 
+     { 
+     "start": "react-scripts start",
+     "build": "react-scripts build",
+     "test": "react-scripts test", 
+     "predeploy": "npm run build",
+     "deploy": "gh-pages -d build" }, 
+     ------
 
 
+     "scripts": {
+     
+        "predeploy": "npm run build", 
+        "deploy": "gh-pages -d build"
+
+     }
+
+      BrowserRouter basename = "/frontend-mern-batch11am">
+
+      npm install
+      npm run deploy
+      npm run build
+     
+     }
 
 
 
