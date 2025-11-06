@@ -69,7 +69,11 @@ upload files of the dist folder
 
 =======================
 =======================
-{
+
+
+     {
+
+     in react, 
 
      "homepage": "https://your-username.github.io/frontend-mern-batch11am"
 
